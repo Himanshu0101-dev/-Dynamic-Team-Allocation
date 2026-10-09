@@ -1,0 +1,16 @@
+Input:
+Projects = [{id:1, team_size:2, skill_required:5}, {id:2, team_size:3, skill_required:7}]
+Developers = [4, 5, 6, 7, 8, 5]
+
+Output:
+Project 1 → [5, 4]
+Project 2 → [7, 8, 6]
+
+---
+
+Input:
+Projects = [{id:1, team_size:3, skill_required:4}]
+Developers = [2, 3]
+
+Output:
+Not Possible
